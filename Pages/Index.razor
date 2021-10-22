@@ -1,18 +1,18 @@
 ﻿@page "/"
 
 <SfChart Title="Financial Analysis">
-    <ChartSeriesCollection>
         <ChartPrimaryXAxis Maximum="@(new DateTime(2013, 05, 31))" Title="Date Time"
                            Minimum="@(new DateTime(2012, 03, 01))" LabelFormat="yMMM"
                            ValueType="Syncfusion.Blazor.Charts.ValueType.DateTime">
         </ChartPrimaryXAxis>
         <ChartPrimaryYAxis Title="Price in Dollars"></ChartPrimaryYAxis>
         <ChartCrosshairSettings Enable="true" LineType="LineType.Vertical"></ChartCrosshairSettings>
+       <ChartSeriesCollection>
         <ChartSeries Type="ChartSeriesType.Hilo" DataSource="@ChartData"
                      XName="Period" High="HighValue" Low="LowValue">
         </ChartSeries>
-        <ChartTooltipSettings Enable="true"></ChartTooltipSettings>
     </ChartSeriesCollection>
+     <ChartTooltipSettings Enable="true"></ChartTooltipSettings>
 </SfChart>
 
 @code

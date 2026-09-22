@@ -2,7 +2,7 @@
 
 ## Overview
 
-This sample demonstrates how to create and customize financial charts using the Syncfusion Blazor Chart component. The application focuses on financial data visualization scenarios and showcases the High-Low (Hilo), Open-High-Low-Close (OHLC), and Candle chart types used to represent stock market price movements and trading activity.
+This sample demonstrates how to create and customize financial charts using the Syncfusion [Blazor Chart](https://www.syncfusion.com/blazor-components/blazor-charts) component. The application focuses on financial data visualization scenarios and showcases the High-Low (Hilo), Open-High-Low-Close (OHLC), and Candle chart types used to represent stock market price movements and trading activity.
 
 The sample illustrates how financial data consisting of open, high, low, close, and volume values can be visualized through specialized chart series. It provides a practical reference for implementing stock-market style charting experiences in Blazor applications using Syncfusion chart components.
 

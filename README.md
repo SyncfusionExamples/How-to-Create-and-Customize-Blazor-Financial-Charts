@@ -46,11 +46,6 @@ dotnet run
 
 4. Open the local application URL displayed in the terminal after the application starts.
 
-## Project Structure
-
-- `Pages/` — contains the Blazor pages that render the Syncfusion financial chart examples.
-- Additional files within the Pages and Data folders support the implementation of Hilo, OHLC, and Candle chart visualizations.
-
 ## Support and Feedback
 
 - For general product questions, visit the [Syncfusion Community Forum](https://www.syncfusion.com/forums) or [Syncfusion Support](https://www.syncfusion.com/support).

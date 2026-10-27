@@ -20,18 +20,15 @@ The sample illustrates how financial data consisting of open, high, low, close, 
 ## Prerequisites
 
 - Visual Studio 2022 or Visual Studio Code
-- .NET SDK compatible with the project's target framework
+- .NET 10.0 SDK
 
 ## How to Run the Project
 
 **Visual Studio 2022**
 
 1. Clone or download this repository.
-2. Open `FinancialCharts.sln`.
-3. Restore all NuGet packages.
-4. Set the `FinancialCharts` project as the startup project if required.
-5. Build the solution.
-6. Run the application using `Ctrl+F5`.
+2. Open the repository folder and restore all NuGet packages.
+3. Build and run the application using `Ctrl+F5`.
 
 **Visual Studio Code**
 
